@@ -1,0 +1,111 @@
+{
+    "temples":
+    [
+        {
+            "name":"Aba Nigeria",      
+            "address":{
+            "street":"72-80 Okpu-Umuobo Rd",
+            "city":"Aba",
+            "stateCountry":"Abia State, Nigeria"},
+            "tel":"(243) 80-3903-4804",
+            "services":
+            [
+                "Patron housing",
+                "Distribution center nearby"
+            ],
+            "history":
+            [
+                "Announced - 2 April 2000",
+                "Groundbreaking - 23 February 2002",
+                "Dedicated - 7 August 2005"
+            ],
+            "closure":
+            [
+                "Saturday, 17 August 2019",
+                "Monday, 26 August 2019 - Monday, 4 November 2019",
+                "Tuesday, 24 December 2019 - Thursday, 26 December 2019"
+            ]
+        },
+        
+        {
+            "name":"Campinas Brazil", 
+            "address":{
+            "street":"Rua James Esdras Faust, 400",
+            "city":"Campinas",
+            "stateCountry":"SP, Brazil"},
+            "tel":"(55) 19-2102-5800",
+            "services":
+            [
+                "Clothing rental",
+                "Cafeteria",
+                "Patron housing",
+                "Distribution center nearby"
+            ],
+            "history":
+            [
+                "Announced - 3 April 1997",
+                "Groundbreaking - 1 May 1998",
+                "Dedicated - 17 May 2002"
+            ],
+            "closure":
+            [
+                "Friday, 19 April 2019 (Limited Hours)",
+                "Monday, 27 May 2019 -Monday, 10 June 2019",
+                "Saturday, 5 October 2019"
+            ]
+        },
+        
+        {
+            "name":"Curitiba Brazil",    
+            "address":{
+            "street":"Rua Deputado Heitor Alencar Furtado, 3641",
+            "city":"Curitiba",
+            "stateCountry":"PR, Brazil"},
+            "tel":"(55) 41-3204-6650",
+            "services":
+            [
+                "Distribution center nearby"
+            ],
+            "history":
+            [
+                "Announced - 23 August 2002",
+                "Groundbreaking - 10 March 2005",
+                "Dedicated - 1 June 2008"
+            ],
+            "closure":
+            [
+                "Monday, 13 May 2019 - Monday, 27 May 2019",
+                "Saturday, 5 October 2019",
+                "Monday, 11 November 2019 - Monday, 25 November 2019"
+            ]
+        },
+        
+        {
+            "name":"Manhattan New York",    
+            "address":{
+            "street":"125 Columbus Ave, Fourth Floor",
+            "city":"New York",
+            "stateCountry":"NY, United States"},
+            "tel":"(1) 917-441-8220",
+            "services":
+            [
+                "Clothing rental",
+                "Distribution center nearby"
+            ],
+            "history":
+            [
+                "Announced - 7 August 2002",
+                "Groundbreaking - 23 September 2002",
+                "Dedicated - 13 June 2004"
+            ],
+            "closure":
+            [
+                "Thursday, 4 July 2019",
+                "Tuesday, 23 July 2019 - Monday, 28 October 2019",
+                "Wednesday, 27 November 2019"
+            ]
+        }
+    ]
+    
+    
+}

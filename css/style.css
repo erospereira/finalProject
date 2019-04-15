@@ -1,0 +1,261 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header img {
+  display: block;
+  width: 30%;
+  padding: 2vw 0;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+}
+ul {
+  padding: 0;
+}
+header {
+  background-color: #2ab6d1;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+nav {
+  margin: 0.5em 0;
+}
+
+nav ul li {
+  background-color: #fff;
+  border-bottom: 1px solid transparent;
+}
+
+nav ul li:hover {
+  border-color: #fdd072;
+}
+
+nav ul li a:link {
+  color: #032329;
+  text-decoration: none;
+  font-size: 3vw;
+  padding: 1vw;
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+nav ul li a:visited {
+  color: #032329;
+}
+
+nav ul li a:hover {
+  color: #fdd072;
+}
+
+
+#carousel {
+  margin: 2em auto;
+  overflow: hidden;
+  background-color: #ddc;
+  border: solid 2vmin #eee;
+  border-bottom-color: #fff;
+  border-left-color: #eee;
+  border-radius: 2px;
+  border-right-color: #eee;
+  border-top-color: #ddd;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25) inset, 0 5px 10px 5px rgba(0, 0, 0, .25);
+  box-sizing: border-box;
+  display: block;
+  width: 90%;
+  position: relative;
+  text-align: center;
+ 
+ 
+}
+
+#carousel img {
+  border: solid 5px;
+  border-bottom-color: #ffe;
+  border-left-color: #eed;
+  border-right-color: #eed;
+  border-top-color: #ccb;
+  min-width:100%;
+  min-height:100%;
+  
+}
+
+
+  
+  .effect8
+
+{
+  padding: 5vw;
+  margin: 3vw 3vw;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect8:before, .effect8:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+}
+.effect8:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+
+#campinas{
+  margin-top: 2em;
+}
+ 
+h1 {
+  
+  font-size: 5vw !important; 
+  text-align: center;
+  margin-top: 6vw !important;
+  text-decoration: underline;
+  text-decoration-color: #fdd072;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-color: #fdd072;
+  margin-top: 3vw 0 !important;
+  font-size: 3vw !important;
+  text-align: center;
+}
+
+table, th, td {
+  text-align: center;
+  border: 0.1em #2ab6d1 solid;
+}
+table{
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+td{
+  background-color: #ccb;
+}
+
+
+
+#summ{
+  margin: 5vw auto ;
+  text-align: center;
+  
+
+}
+
+#logoInLine a{
+  color:#fdd072;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.grid{
+  display: grid;
+  grid-template: auto auto auto auto / 1fr 3fr;
+  grid-gap: 1em;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.grid div:nth-child(2n + 1) {
+  text-align: right;
+}
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2ab6d1;
+  border: none;
+  border-radius: 25%/50%;
+  color: #FFFFFF;
+  font-size: 3vw;
+  padding: 1vw 10vw;
+  width: 30vw;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  height: 15vw;
+  margin: 0  auto 3em;
+}
+
+
+.button span {
+  cursor: pointer;
+}
+
+#chevron {
+  position: relative;
+  right: -1em;
+  opacity: 0;
+  transition: 0.5s ease-out;
+}
+
+.button:hover {
+  padding-left: 2em;
+}
+
+.button:hover #chevron {
+  opacity: 1;
+}
+
+footer {
+   margin-top: 1em;
+  font-size: 2vw;
+  color: #032329;
+  background-image: linear-gradient(#fdd072 1%, #2ab6d1 10%);
+  padding-top: 2em;
+  padding-bottom: 0.3em; 
+  
+  
+}
+footer div{
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 2em;
+  margin:0;
+}
+footer div i{
+  color: #fdd072;
+}
+#innerFlex{
+  padding-top: 1.8em ;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer div a {
+  font-size: 3vw;
+  padding: 0 0.2em;
+  
+
+}
+
+footer div p{
+  margin: 0;
+}
