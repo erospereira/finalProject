@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <img src="images/logo.png" />
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="reservation.html">Reservations</a></li>
+      <li><a href="temple.html">Temple</a></li>
+      <li><a href="contactPage.html">Contact Us!</a></li>
+    </ul>
+  </nav>
+  <main>
+
+    <section class="effect8" id="campinas">
+            
+            <h1 id="campinas.name"></h1>
+            <h3 id="campinas.address.street"></h3>
+            <h3 id="campinas.address.city"></h3>
+            <h3 id="campinas.address.stateCountry"></h3>
+            <br>
+            <h3 id="campinas.tel"></h3>
+            <h3 id="campinas.services"></h3>
+            <h3 id="campinas.history"></h3>
+            <h3 id="campinas.closure"></h3>
+            <h2>Weather Summary</h2>
+
+            <h2></h2>
+        <div id="summ">
+          
+          Currently: <span id="currently"></span>&deg;F</br>
+          High: <span id="high"></span>&deg;F</br>
+          Low: <span id="low"></span>&deg;F</br>
+          Windchill: <span id="output"></span>&deg;F</br>
+          Humidity: <span id="humidity"></span>%</br>
+          Windspeed: <span id="windspeed"></span>m/h</br>
+        </div>
+        <table style="width:100%">
+          <tr>
+  
+            <th id="day1Day"></th>
+            <th id="day2Day"></th>
+            <th id="day3Day"></th>
+            <th id="day4Day"></th>
+            <th id="day5Day"></th>
+          </tr>
+  
+          <tr>
+            <td><span id="day1icon"></span></br><span id="day1tem"></span>&deg;F</td>
+            <td><span id="day2icon"></span></br><span id="day2tem"></span>&deg;F</td>
+            <td><span id="day3icon"></span></br><span id="day3tem"></span>&deg;F</td>
+            <td><span id="day4icon"></span></br><span id="day4tem"></span>&deg;F</td>
+            <td><span id="day5icon"></span></br><span id="day5tem"></span>&deg;F</td>
+          </tr>
+  
+  
+        </table>
+  
+        
+  
+  
+      </section>
+
+  
+  </main>
+  <footer>
+    <div>
+      <p><i class="fas fa-phone"></i> 204-102-9138</p>
+    </div>
+    <div>
+      <p><i class="fas fa-envelope"></i> inquiries@ldstempleinn.com</p>
+    </div>
+    <div>
+      <p><i class="fas fa-map-marked-alt"></i> 123 Somenice St, City, ST, United States</p>
+    </div>
+    <div id="socialMedia">
+      <div id="innerFlex">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script type="text/javascript" src="script/script.js">
+
+  </script>
+<script src="script/weatherapip.js"></script>
+
+</body>
+
+</html>
